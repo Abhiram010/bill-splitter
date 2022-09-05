@@ -180,7 +180,7 @@ session_start();
 
         <?php
         $userId = $_SESSION['userId'];
-        $gettransactions = "SELECT * FROM `transcations` WHERE `userId`=25 ORDER BY `id` DESC LIMIT 5;";
+        $gettransactions = "SELECT * FROM `transcations` WHERE `userId`='$userId' ORDER BY `id` DESC LIMIT 5;";
         $transactionresult = mysqli_query($conn, $gettransactions);
         $transactioncheck = mysqli_num_rows($transactionresult);
 
