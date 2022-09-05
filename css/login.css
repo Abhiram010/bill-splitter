@@ -1,0 +1,84 @@
+.login {
+    flex-direction: column;
+    width: 20rem;
+    margin: 15px;
+    padding: 2rem;
+    /* border: solid 1px; */
+    border-radius: 5px;
+    height: 26rem;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.5);
+    background: url('../images/login-back.svg');
+    background-repeat: no-repeat;
+    background-position-y: -9.7rem;
+    background-position-x: -5rem;
+}
+
+.signupform {
+    padding-top: 4rem;
+}
+
+.loginform {
+    height: 30rem;
+    background-position-y: -6.7rem;
+
+
+}
+
+.bothforms {
+    justify-content: center;
+    align-items: center;
+}
+
+.login input {
+    background: none;
+    margin: 10px 0 10px 0;
+    border: solid 1px rgba(88, 88, 88, 0.753);
+    color: white;
+    padding: 5px;
+    outline: none;
+    /* box-shadow: inset 5px 5px 10px rgb(0, 0, 0, 0.5); */
+}
+
+.forms {
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+.forms button {
+    background: #2bc762;
+    border: none;
+    padding: 5px;
+    margin: 10px 0 10px 0;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.5);
+    border-radius: 2px;
+}
+
+.formheading {
+    margin: 15px;
+}
+
+.loginHead {
+    margin: 10px 5px 2rem;
+    /* font-size: 1.5rem; */
+    text-align: center;
+}
+
+.bothforms {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .content {
+        margin-top: 10rem !important;
+    }
+
+    .login {
+        margin-top: 2rem;
+    }
+}

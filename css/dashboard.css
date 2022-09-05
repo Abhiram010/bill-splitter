@@ -1,0 +1,213 @@
+.tablerow {
+    background: none;
+
+}
+
+.content {
+    margin-top: 8rem;
+}
+
+.Dashboard {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tablerow {
+    display: block;
+    margin: auto;
+    background: none;
+    justify-content: center;
+    width: 80%;
+    overflow: scroll;
+
+}
+
+.tablerow::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.tablerow {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.tablerow1::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.tablerow1 {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 25px;
+}
+
+.table th {
+    color: #1ba94c;
+}
+
+.table td, th {
+    padding: 15px;
+    font-weight: 300;
+    border-left: solid 1px #1ba94c;
+    text-align: center;
+}
+
+.table tr {
+    padding: 15px;
+    background: rgba(24, 24, 24, 0.616);
+    /* border-bottom: solid 1px #1ba94c; */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* second table */
+.tablerow1 {
+    display: block;
+    margin: auto;
+    background: none;
+    justify-content: center;
+    width: 80%;
+    overflow: scroll;
+}
+
+.table1 {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 25px;
+}
+
+.table1 th {
+    color: #1ba94c;
+}
+
+.table1 td, th {
+    padding: 15px;
+    font-weight: 300;
+    border-left: solid 1px #1ba94c;
+    text-align: center;
+}
+
+.table1 tr {
+    padding: 15px;
+    background: rgba(24, 24, 24, 0.616);
+    /* border-bottom: solid 1px #1ba94c; */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.viewbutton {
+    text-decoration: none;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 5px;
+    background: #2bc762;
+}
+
+.joinbutton {
+    text-decoration: none;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 5px;
+    background: #2bc762;
+    border: none;
+}
+
+.leavebutton {
+    text-decoration: none;
+    color: #c7422b !important;
+    padding: 7px 15px;
+    font-size: 1.2rem !important;
+}
+
+.leavebutton-green {
+    text-decoration: none;
+    color: #28ac56 !important;
+    padding: 7px 15px;
+    font-size: 1.2rem !important;
+}
+
+.leavebutton:hover {
+    transform: scale(1.2);
+}
+
+.leavebutton-green:hover {
+    transform: scale(1.2);
+
+}
+
+@media (max-width: 768px) {
+    .tablerow {
+        width: auto;
+        max-width: 90vw;
+
+    }
+
+    .table {
+        margin: 15px 0;
+    }
+
+    .tablerow1 {
+        width: auto;
+        max-width: 90vw;
+
+    }
+
+    .table1 {
+        margin: 15px 0;
+    }
+
+    .floating-bars {
+        justify-content: center !important;
+        margin: 25px 0 !important;
+
+    }
+
+
+}
+
+.nogroups {
+    height: 10rem;
+    margin: 25px;
+}
+
+.floating-bars {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin: 0 25px 0;
+
+}
+
+.floating-bars h3, button {
+    margin: 8px 5px;
+}
+
+.floating-bars h3 i {
+    margin: 5px;
+}
+
+.floating-bars h3 {
+    border: solid 1px #1ba94c;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.floating-bars h3:hover {
+    background: #000000;
+    color: white;
+
+}
+
+.disabledbutton {
+    cursor: not-allowed;
+    background: #c7422b;
+}

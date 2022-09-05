@@ -1,0 +1,59 @@
+.profilePhoto {
+    height: 8rem;
+    border-radius: 25px;
+}
+
+.content {
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.profileData {
+    background: rgba(14, 13, 13, 0.5);
+    padding: 2rem;
+    margin: 0 2rem 0 2rem;
+    flex-direction: column;
+    border-radius: 25px;
+    min-width: 25rem;
+}
+
+.logout {
+    background-color: rgb(228, 81, 81);
+    color: aliceblue;
+    padding: 10px 20px;
+    margin: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.profileHeading {
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin: 1rem;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #1ba94c 0%, #6c2db9 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.subProfileHead {
+    font-weight: 300;
+    font-size: 1.2rem;
+    margin: 1rem;
+    color: aquamarine;
+}
+
+.profileText {
+    font-weight: 300;
+    font-size: 1.2rem;
+    margin: 1rem;
+}
+
+@media (max-width:768px) {
+    .profileData {
+        margin: 2rem;
+    }
+}

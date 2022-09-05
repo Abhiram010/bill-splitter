@@ -1,0 +1,188 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* commomn styles start */
+body {
+    color: aliceblue;
+    background-color: rgb(32, 32, 32);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: url('./images/cursur.cur'), auto;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.green {
+    color: #1ba94c;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* commomn styles end */
+/* navbar styles start */
+nav {
+    background: rgba(25, 25, 25, 0.8);
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index:999;
+}
+
+nav ul li {
+    margin: 1.5rem;
+    list-style: none;
+    color: rgb(241, 247, 253);
+}
+
+nav .branding img {
+    height: 3rem;
+}
+
+.branding {
+    align-items: center;
+}
+
+.branding h2 {
+    font-weight: 300;
+    margin: 0 10px 0 10px;
+}
+
+/* navbar styles end */
+/* Introduction styles */
+.introImg {
+    height: 15rem;
+    padding: 1rem;
+}
+
+.introContainer {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 2rem 0 3rem 0;
+    overflow: hidden;
+}
+
+.introText {
+    position: relative;
+    max-width: 40vw;
+    margin-top: 25rem;
+    padding: 15px;
+}
+
+.introText h1 {
+    color: #1ba94c;
+    margin: 1rem 0 1rem 0;
+}
+
+.introText h1, p {
+    text-align: justify !important;
+}
+
+@media (max-width:768px) {
+    .introText {
+        max-width: 100%;
+        margin-top: 0;
+    }
+
+    .introContainer {
+        margin-top: 10rem;
+    }
+
+    .imgContainter {
+        width: 100vw;
+    }
+
+    .introText h1 {
+        text-align: center !important;
+    }
+
+    /* common style content */
+    .content {
+        margin-top: 3rem;
+    }
+}
+
+.imgContainter {
+    position: relative;
+    width: 25rem;
+    max-width: 100%;
+    height: 25rem;
+    padding: 15px;
+}
+
+.logoIntro {
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+    height: 6rem;
+    overflow: hidden;
+}
+
+#canvas {
+    margin: 0 auto 0;
+    width: 25rem;
+    max-width: 23rem;
+    display: block;
+    position: absolute;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.intro {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    height: 80vh;
+}
+
+.brandIntro {
+    margin: 15px;
+}
+
+.brandIntro h1 {
+    font-weight: 300;
+    text-align: center;
+}
+
+.brandIntro h1, h2, p {
+    text-align: center !important;
+}
+
+.gradient-text {
+    /* green gradient  text clip*/
+    text-transform: uppercase;
+    background: linear-gradient(to right, #1ba94c 0%, #6c2db9 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
