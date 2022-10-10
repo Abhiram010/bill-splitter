@@ -1,8 +1,4 @@
 <?php
-$servername = "localhost";
-$username = "gmritchapterhost_bill";
-$password = "AbhiAbhiAbhi2525";
-$dbname = "gmritchapterhost_bill";
 // $servername = "localhost";
 // $username = "root";
 // $password = "";
